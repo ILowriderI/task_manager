@@ -4,7 +4,7 @@ import "./App.css";
 function App() {
   return (
     <div>
-      <h1>Список завдань</h1>
+      <h1 className="text-center">Tasks</h1>
 
       <TaskList />
     </div>

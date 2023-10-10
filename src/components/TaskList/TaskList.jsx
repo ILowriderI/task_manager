@@ -48,6 +48,7 @@ const TaskList = () => {
           ))}
         </ListGroup>
       </div>
+      <h2 className="text-center" > {tasks.length < 1 ? "There are no tasks yet.":""}</h2>
     </div>
   );
 };
